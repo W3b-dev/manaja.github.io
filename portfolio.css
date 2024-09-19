@@ -745,6 +745,19 @@ input, textarea {
         margin-left: 50px;
     }
 }
+@media (max-width: 990px){
+    .about .about-content .right .text{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    .about .about-content .right .text2{
+        font-size: 15px;
+    }
+    .about .about-content .left img{
+        height: 130px;
+        width: 380px;
+    }
+}
 @media (max-width: 974px){
     .text-overlay {
         top: 15%;
