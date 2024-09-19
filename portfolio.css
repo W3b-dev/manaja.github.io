@@ -5,6 +5,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -207,8 +212,11 @@ section .title::after{
 .about .about-content .right .btn-2 {
     background-color: yellow;
     border-color: yellow;
-    width: 200px;   
-    margin-left: 15px;
+    width: 200px;
+    margin-left: 10px;   
+}
+.about .about-content .right .btns {
+    display: flex;
 }
 
 
@@ -612,7 +620,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: white;
 }
 .contact .right form .fields{
     display: flex;
@@ -724,16 +732,6 @@ input, textarea {
         top: 30%;
     }
 }
-@media (max-width: 1164px){
-    /* .about .about-content .right .text{
-        font-size: 50px;
-    }
-    .about .about-content .right .text2{
-        font-size: 20px;
-    } */
-
-    /* Strongpassword###12345 */
-}
 @media (max-width: 1062px){
     .about .about-content .right .text{
         margin-left: 50px;
@@ -746,9 +744,6 @@ input, textarea {
     .about .about-content .right button{
         margin-left: 50px;
     }
-}
-@media (max-width: 1037px){
-    
 }
 @media (max-width: 974px){
     .text-overlay {
