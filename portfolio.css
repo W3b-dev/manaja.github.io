@@ -4,8 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    width: 100%;
-    /* background-color: white; */
 }
 button, img {
     cursor: pointer;
@@ -31,7 +29,6 @@ html{
     padding: 15px 0px;
     font-family: 'Ubuntu', sans-serif;
     transition: all  0.3s ease;
-    /* background-color: rgb(24, 24, 57); */
     background-color: white;
 }
 .navbar .max-width {
