@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    width: 100%;
+    /* background-color: white; */
+}
+button, img {
+    cursor: pointer;
 }
 body {
     margin: 0;
@@ -26,7 +31,8 @@ html{
     padding: 15px 0px;
     font-family: 'Ubuntu', sans-serif;
     transition: all  0.3s ease;
-    background-color: rgb(24, 24, 57);
+    /* background-color: rgb(24, 24, 57); */
+    background-color: white;
 }
 .navbar .max-width {
     display: flex;
@@ -39,8 +45,9 @@ html{
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: yellow;
-    border: none;
+    background-color: transparent;
+    border-color: black;
+    cursor: pointer;
 }
 .navbar .menu li a .button1{
     width: 80px;
@@ -63,8 +70,8 @@ html{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
-    font-size: 23px;
+    color: black;
+    font-size: 25px;
     cursor: pointer;
     display: none;
 }
@@ -72,9 +79,9 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    background: black;
     height: 100%;
     text-align: center;
+    color: black;
 }
 .home .home-content {
     /* margin-top: 100px; */
@@ -84,12 +91,10 @@ html{
 .home .home-content .text-1 {
     font-size: 68px;
     font-family: 'Poppins', sans-serif;
-    color: white;
 }
 .home .home-content .text-2 {
     font-size: 25px;
     font-weight: 600;
-    color: white;
 }
 .home .home-content button {
     width: 170px;
@@ -100,11 +105,12 @@ html{
 }
 .home .home-content button p{
     font-size: 23px;
+    
 }
 .home .home-content .btn-1 {
     background-color: transparent;
-    border-color: white;
-    color: white;   
+    border-color: black;
+    color: black;
 }
 .home .home-content .btn-2 {
     background-color: yellow;
@@ -159,7 +165,9 @@ section .title::after{
 
 /* about section styling */
 .about {
-    background-color: rgb(24, 24, 57);
+    /* background-color: rgb(24, 24, 57); */
+    background-color: white;
+    color: black;
 }
 .about .title::after{
     content: "who i am";
@@ -179,14 +187,14 @@ section .title::after{
 .about .about-content .right .text{
     font-size: 70px;
     font-weight: 500;
-    color: white;
+    /* color: white; */
     line-height: 1.1;
     justify-content: center;
 }
 .about .about-content .right .text2{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    /* color: white; */
     margin-top: 30px;
     text-align: justify;
     justify-content: center;
@@ -205,8 +213,8 @@ section .title::after{
 }
 .about .about-content .right a .btn-1 {
     background-color: transparent;
-    border-color: white;
-    color: white;
+    border-color: black;
+    /* color: white; */
     width: 150px;   
 }
 .about .about-content .right .btn-2 {
@@ -297,7 +305,7 @@ section .title::after{
     font-size: 48px;
     margin-bottom: 20px;
 }
-.text-overlay button , .contact button{
+.text-overlay button {
     background-color: transparent;
     border-color: white;
     color: white;
@@ -324,14 +332,16 @@ section .title::after{
 
 /* offers styling */
 .offer {
-    background-color: black;
+    /* background-color: black; */
+    background-color: white;
+    color: black;
 }
 .offer-all{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    color: white;
+    /* color: white; */
 }
 .offer-all h2 {
     font-size: 40px;
@@ -375,8 +385,9 @@ section .title::after{
 
 /* grace styling */
 .grace {
-    background-color: rgb(24, 24, 57);
-    color: white;
+    /* background-color: rgb(24, 24, 57); */
+    background-color: white;
+    color: black;
     line-height: 1.1;
 }
 .grace img {
@@ -444,8 +455,9 @@ section .title::after{
 
 /* pricing styling */
 .pricing {
-    background-color: rgb(24, 24, 57);
-    color: white;
+    /* background-color: rgb(24, 24, 57); */
+    background-color: white;
+    color: black;
     
 }
 .pricing-content{
@@ -464,10 +476,9 @@ section .title::after{
     width: 350px;
     height: 430px;
     overflow: hidden;
-    border-color: white;
-    background-color: rgb(24, 24, 57);
-    box-shadow: 0px 0px 2px white;
-    border-color: red;
+    /* background-color: rgb(24, 24, 57); */
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
     border-radius: 20px;
 }
 .price-card-content {
@@ -484,8 +495,8 @@ section .title::after{
     height: 38px;
     font-family: 'Times New Roman', Times, serif;
     background-color: transparent;
-    border-color: white;
-    color: white;
+    border-color: black;
+    color: black;
     font-size: 15px;
     margin-top: 20px;
 }
@@ -497,12 +508,12 @@ section .title::after{
 }
 .w1{
     margin-top: 30px;
-    margin-left: 10px;
-    padding: 4px 0 0 5px;
-    background-color: white;
-    width: 60px;
-    height: 28px;
-    color: rgb(24, 24, 57);
+    margin-left: 14px;
+    padding: 5px 0 0 10px;
+    background-color: black;
+    width: 70px;
+    height: 29px;
+    color: white;
     border-radius: 35px;
 }
 .q1 {
@@ -537,14 +548,15 @@ section .title::after{
 
 /* team styling */
 .team {
-    background-color: rgb(14, 14, 43);
+    /* background-color: rgb(14, 14, 43); */
+    background-color: white;
+    color: black;
 }
 .team-content{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    color: white;
 }
 .team h2 {
     font-size: 50px;
@@ -572,7 +584,6 @@ section .title::after{
     height: auto;
     box-shadow: 0px 2px 4px black;
     border-radius: 15px;
-    opacity: 0.35;
 }
 
 .team-content {
@@ -587,13 +598,20 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-    background-color: rgb(12, 12, 29);
-    color: white;
+    /* background-color: rgb(12, 12, 29); */
+    background-color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 .contact button {
     width: 150px;
     height: 40px;
+    background-color: transparent;
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -619,9 +637,6 @@ section .title::after{
 .contact .contact-content .info .head{
     font-weight: 500;
 }
-.contact .contact-content .info .sub-title{
-    color: white;
-}
 .contact .right form .fields{
     display: flex;
 }
@@ -645,7 +660,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgray;
+    border: 2px solid black;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -656,18 +671,16 @@ section .title::after{
     padding-top: 10px;
     resize: none;
 }
-input, textarea {
-    opacity: 0.1;
-}
 
 
 /* footer section styling */
 .footer {
-    background-color: rgb(24, 24, 57);
+    /* background-color: rgb(24, 24, 57); */
+    background-color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 .footer img {
@@ -679,7 +692,7 @@ input, textarea {
 }
 .footer a {
     font-size: 20px;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 .content-text {
@@ -693,13 +706,12 @@ input, textarea {
     right: 20px;
     z-index: 1000;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     background-color: white;
-    color: yellow;
     cursor: pointer;
     width: 40px;
     height: 40px;
+    box-shadow: 0px 2px 4px black;
 }
 .fixed-button img {
     width: 20px;
@@ -786,7 +798,7 @@ input, textarea {
         width: 100%;
         left: -100%;
         top: 0;
-        background-color: rgb(24, 24, 57);
+        background-color: white;
         padding-top: 80px;
         transition: all 0.5s ease;
     }
@@ -798,7 +810,7 @@ input, textarea {
         margin: 8px 0;
         font-size: 25px;
     }
-    .navbar .logo img{
+    .navbar .logo img.active:before{
         height: 50px;
         width: 50px;
     }
@@ -808,8 +820,9 @@ input, textarea {
         border-radius: 10px;
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
-        background-color: yellow;
-        border: none;
+        background-color: white;
+        color: black;
+        border-color: black;
     }
     .navbar .menu li a .button1{
         width: 100px;
@@ -891,13 +904,13 @@ input, textarea {
         padding: 0 23px;
     }
     .home .home-content .text-2 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .home .home-content .text-3 {
-        font-size: 32px;
+        font-size: 22px;
     }
     .home .home-content a{
-        font-size: 23px;
+        font-size: 15px;
     }
     .services .serv-content .card{
         width: 100%;
