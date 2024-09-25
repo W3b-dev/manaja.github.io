@@ -954,4 +954,23 @@ section .title::after{
         border-radius: 6px;
         font-size: 15px;
     }
+    .home .home-content .text-1 {
+        font-size: 25px;
+    }
+    .home .home-content .text-2 {
+        font-size: 15px;
+    }
+    .home .home-content .text-3 {
+        font-size: 12px;
+    }
+    .home .home-content a{
+        font-size: 8px;
+    }
+    .home .home-content button {
+        width: 140px;
+        height: 45px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 8px;
+        margin-top: 5px;
+    }
 }
