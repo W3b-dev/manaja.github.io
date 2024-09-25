@@ -29,6 +29,7 @@ html{
     padding: 15px 0px;
     font-family: 'Ubuntu', sans-serif;
     transition: all  0.3s ease;
+    /* background-color: rgb(24, 24, 57); */
     background-color: white;
 }
 .navbar .max-width {
@@ -913,6 +914,7 @@ section .title::after{
         width: 100%;
     }
 }
+
 @media (max-width: 600px){
     .text-overlay {
         top: 5%;
@@ -954,6 +956,7 @@ section .title::after{
         border-radius: 6px;
         font-size: 15px;
     }
+    /*  */
     .home .home-content .text-1 {
         font-size: 25px;
     }
